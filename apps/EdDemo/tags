@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_FIRST_CHANNEL	config.h	49;"	d
+APP_LAST_CHANNEL	config.h	50;"	d
+APP_SCAN_INTERVAL	config.h	51;"	d
+APP_STATE_INITIAL	EdDemo.c	/^  APP_STATE_INITIAL,$/;"	e	enum:AppState_t	file:
+APP_STATE_NEXT_CHANNEL	EdDemo.c	/^  APP_STATE_NEXT_CHANNEL,$/;"	e	enum:AppState_t	file:
+APP_STATE_START_ED	EdDemo.c	/^  APP_STATE_START_ED,$/;"	e	enum:AppState_t	file:
+APP_STATE_WAIT_ED_CONF	EdDemo.c	/^  APP_STATE_WAIT_ED_CONF,$/;"	e	enum:AppState_t	file:
+APP_STATE_WAIT_SCAN_TIMER	EdDemo.c	/^  APP_STATE_WAIT_SCAN_TIMER,$/;"	e	enum:AppState_t	file:
+APP_TaskHandler	EdDemo.c	/^static void APP_TaskHandler(void)$/;"	f	file:
+AppState_t	EdDemo.c	/^typedef enum AppState_t$/;"	g	file:
+AppState_t	EdDemo.c	/^} AppState_t;$/;"	t	typeref:enum:AppState_t	file:
+HAL_ENABLE_UART	config.h	55;"	d
+HAL_UART_CHANNEL	config.h	56;"	d
+HAL_UART_RX_FIFO_SIZE	config.h	57;"	d
+HAL_UART_TX_FIFO_SIZE	config.h	58;"	d
+HAL_UartBytesReceived	EdDemo.c	/^void HAL_UartBytesReceived(uint16_t bytes)$/;"	f
+PHY_ENABLE_ENERGY_DETECTION	config.h	53;"	d
+PHY_EdConf	EdDemo.c	/^void PHY_EdConf(int8_t ed)$/;"	f
+_CONFIG_H_	config.h	45;"	d
+appInit	EdDemo.c	/^static void appInit(void)$/;"	f	file:
+appPrintEdValues	EdDemo.c	/^static void appPrintEdValues(void)$/;"	f	file:
+appScanTimer	EdDemo.c	/^static SYS_Timer_t appScanTimer;$/;"	v	file:
+appScanTimerHandler	EdDemo.c	/^static void appScanTimerHandler(SYS_Timer_t *timer)$/;"	f	file:
+appState	EdDemo.c	/^static AppState_t appState = APP_STATE_INITIAL;$/;"	v	file:
+channel	EdDemo.c	/^static uint8_t channel;$/;"	v	file:
+edValue	EdDemo.c	/^static uint8_t edValue[APP_LAST_CHANNEL - APP_FIRST_CHANNEL + 1];$/;"	v	file:
+main	EdDemo.c	/^int main(void)$/;"	f

@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{3D12AB60-5A11-40E9-9806-20A20AFCF74A}") = "ZigBit_ATmega1281_Rf230", "ZigBit_ATmega1281_Rf230.cproj", "{0BDFDFF3-C85F-4CA1-98AE-7EB39F382870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|AVR = Default|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BDFDFF3-C85F-4CA1-98AE-7EB39F382870}.Default|AVR.ActiveCfg = Debug|AVR
+		{0BDFDFF3-C85F-4CA1-98AE-7EB39F382870}.Default|AVR.Build.0 = Debug|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

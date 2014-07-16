@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOOT_INDEX	bootloader.c	60;"	d	file:
+BOOT_INDEX	bootloader.c	67;"	d	file:
+BOOT_PIN	bootloader.c	59;"	d	file:
+BOOT_PIN	bootloader.c	66;"	d	file:
+BOOT_PORT	bootloader.c	58;"	d	file:
+BOOT_PORT	bootloader.c	65;"	d	file:
+ENABLE_RS232_CONVERTER	bootloader.c	62;"	d	file:
+IAP_SWITCH	bootloader.c	/^  IAP_SWITCH     = 0x01,$/;"	e	enum:__anon2	file:
+IAP_WRITE_PAGE	bootloader.c	/^  IAP_WRITE_PAGE = 0x00,$/;"	e	enum:__anon2	file:
+XMODEM_ACK	bootloader.c	/^  XMODEM_ACK = 6,$/;"	e	enum:__anon1	file:
+XMODEM_EOT	bootloader.c	/^  XMODEM_EOT = 4,$/;"	e	enum:__anon1	file:
+XMODEM_NAK	bootloader.c	/^  XMODEM_NAK = 21,$/;"	e	enum:__anon1	file:
+XMODEM_SOH	bootloader.c	/^  XMODEM_SOH = 1,$/;"	e	enum:__anon1	file:
+XMODEX_BUFFER_SIZE	bootloader.c	55;"	d	file:
+addr	bootloader.c	/^  uint32_t  addr;$/;"	m	struct:iap_request_t	file:
+addr	bootloader.c	/^static uint32_t addr = 0;$/;"	v	file:
+bootloader_mode	bootloader.c	/^static bool bootloader_mode(void)$/;"	f	file:
+buf	bootloader.c	/^static uint8_t buf[1\/*SOH*\/ + 1\/*seq*\/ + 1\/*nseq*\/ + XMODEX_BUFFER_SIZE + 2\/*crc*\/];$/;"	v	file:
+flush	bootloader.c	/^static void flush(void)$/;"	f	file:
+get_crc	bootloader.c	/^static uint16_t get_crc(void)$/;"	f	file:
+handle_buffer	bootloader.c	/^static void handle_buffer(void)$/;"	f	file:
+hardware_init	bootloader.c	/^static void hardware_init(void)$/;"	f	file:
+iap_request_t	bootloader.c	/^typedef struct iap_request_t$/;"	s	file:
+iap_request_t	bootloader.c	/^} iap_request_t;$/;"	t	typeref:struct:iap_request_t	file:
+iap_switch	bootloader.c	/^__attribute__((section(".iap.switch"))) void (*iap_switch)(void) = iap_switch_handler;$/;"	v
+iap_switch_handler	bootloader.c	/^void iap_switch_handler(void)$/;"	f
+iap_write_page	bootloader.c	/^__attribute__((section(".iap.write_page"))) void (*iap_write_page)(uint32_t, uint16_t *) = iap_write_page_handler;$/;"	v
+iap_write_page_handler	bootloader.c	/^void iap_write_page_handler(uint32_t addr, uint16_t *buf)$/;"	f
+id	bootloader.c	/^  uint8_t   id;$/;"	m	struct:iap_request_t	file:
+main	bootloader.c	/^int main(void)$/;"	f
+page	bootloader.c	/^  uint16_t  page;$/;"	m	struct:iap_request_t	file:
+page	bootloader.c	/^static uint8_t page[SYS_PAGE_SIZE];$/;"	v	file:
+reboot	bootloader.c	/^static void reboot(void)$/;"	f	file:
+receive_file	bootloader.c	/^static void receive_file(void)$/;"	f	file:
+recv	bootloader.c	/^static bool recv(uint8_t *data)$/;"	f	file:
+send	bootloader.c	/^static void send(uint8_t data)$/;"	f	file:
+size	bootloader.c	/^static uint16_t size = 0;$/;"	v	file:
+timeout	bootloader.c	/^static uint16_t timeout = 0;$/;"	v	file:
+timer_poll	bootloader.c	/^static bool timer_poll(void)$/;"	f	file:
+write_page	bootloader.c	/^static void write_page(uint32_t addr, uint16_t *buf)$/;"	f	file:
